@@ -47,12 +47,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 let repositoriesInformation = [
     {
-        projectName: "hatmic.com",
-        link: "https://github.com/Hatmic/Homepage-hatmic.com/",
-        website: "https://hatmic.com",
+        projectName: "old.hatmic.com",
+        link: "https://github.com/Hatmic/Homepage-old.hatmic.com/",
+        website: "https://old.hatmic.com",
         intro: "My Personal Homepage.",
         authour: "Hatmic",
-        author_link: "https://hatmic.com"
+        author_link: "https//github.com/Hatmic"
     },
     {
         projectName: "blog.hatmic.com",
@@ -60,7 +60,7 @@ let repositoriesInformation = [
         website: "https://blog.hatmic.com",
         intro: "Blog.",
         authour: "Hatmic",
-        author_link: "https://hatmic.com"
+        author_link: "https://github.com/Hatmic"
     },
     {
         projectName: "bkstudio.hatmic.com",
@@ -68,7 +68,7 @@ let repositoriesInformation = [
         website: "https://bkstudio.hatmic.com",
         intro: "BKStudio's second anniversary webpage, featuring celebration illustrations drawn by Ionc04!",
         authour: "Hatmic",
-        author_link: "https://hatmic.com"
+        author_link: "https://github.com/Hatmic"
     },
     {
         projectName: "Codemao-Studio-Ranking",
@@ -76,7 +76,7 @@ let repositoriesInformation = [
         website: "#",
         intro: "Python script for the Codemao Studio Comment Ranking List maintained by Hatmic.",
         authour: "Hatmic",
-        author_link: "https://hatmic.com"
+        author_link: "https://github.com/Hatmic"
     }
 ];
 let container1 = document.getElementById("repositories");
