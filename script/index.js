@@ -82,9 +82,9 @@ let repositoriesInformation = [
 let container1 = document.getElementById("repositories");
 repositoriesInformation.forEach(function(i, index1){
     let repositoriesInformationHtml = `
-        <a href="${i.link}" target="_blank"><h3>${i.projectName}</h3></a>
+        <a href="${i.website}" target="_blank"><h3>${i.projectName}</h3></a>
         <p class="intro">${i.intro}</p>
-        <p class="intro">Website: <a href="${i.website}" target="_blank">${i.website}</a></p>
+        <p class="intro">GitHub: <a href="${i.link}" target="_blank">${i.link}</a></p>
         <p class="intro">Author: <a href="${i.author_link}" target="_blank">${i.authour}</a></p>
     `
     if(index1 !== repositoriesInformation.length - 1){
