@@ -50,7 +50,7 @@ let repositoriesInformation = [
         projectName: "old.hatmic.com",
         link: "https://github.com/Hatmic/Homepage-old.hatmic.com/",
         website: "https://old.hatmic.com",
-        intro: "My Personal Homepage.",
+        intro: "My Former Personal Homepage.",
         authour: "Hatmic",
         author_link: "https//github.com/Hatmic"
     },
