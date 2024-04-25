@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
 let repositoriesInformation = [
     {
         projectName: "old.hatmic.com",
-        link: "https://github.com/Hatmic/Homepage-old.hatmic.com/",
+        githubUrl: "https://github.com/Hatmic/Homepage-old.hatmic.com/",
         githubName: "Homepage - old.hatmic.com",
         website: "https://old.hatmic.com",
         intro: "My Former Personal Homepage.",
@@ -57,8 +57,8 @@ let repositoriesInformation = [
     },
     {
         projectName: "blog.hatmic.com",
-        link: "https://github.com/Hatmic/blog.hatmic.com/",
-        githubName: "Blog.hatmic.com",
+        githubUrl: "https://github.com/Hatmic/blog.hatmic.com/",
+        githubName: "blog.hatmic.com",
         website: "https://blog.hatmic.com",
         intro: "My Blog.",
         authour: "Hatmic",
@@ -66,7 +66,7 @@ let repositoriesInformation = [
     },
     {
         projectName: "bkstudio.hatmic.com",
-        link: "https://github.com/Hatmic/bkstudio.hatmic.com/",
+        githubUrl: "https://github.com/Hatmic/bkstudio.hatmic.com/",
         githubName: "bkstudio.hatmic.com",
         website: "https://bkstudio.hatmic.com",
         intro: "BKStudio's second anniversary webpage, featuring celebration illustrations drawn by Ionc04!",
@@ -75,7 +75,7 @@ let repositoriesInformation = [
     },
     {
         projectName: "Codemao-Studio-Ranking",
-        link: "https://github.com/Hatmic/Codemao-Studio-Ranking/",
+        githubUrl: "https://github.com/Hatmic/Codemao-Studio-Ranking/",
         githubName: "Codemao-Studio-Ranking",
         website: "#",
         intro: "Python script for the Codemao Studio Comment Ranking List maintained by Hatmic.",
@@ -88,7 +88,7 @@ repositoriesInformation.forEach(function(i, index1){
     let repositoriesInformationHtml = `
         <a href="${i.website}" target="_blank"><h3>${i.projectName}</h3></a>
         <p class="intro">${i.intro}</p>
-        <p class="intro">GitHub: <a href="${i.link}" target="_blank">${i.githubName}</a></p>
+        <p class="intro">GitHub: <a href="${i.githubUrl}" target="_blank">${i.githubName}</a></p>
         <p class="intro">Author: <a href="${i.author_link}" target="_blank">${i.authour}</a></p>
     `
     if(index1 !== repositoriesInformation.length - 1){
