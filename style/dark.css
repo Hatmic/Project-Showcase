@@ -27,7 +27,7 @@ body {
 }
 
 .nav {
-    background-color: #FAFAFA;
+    background-color: #FFF;
 }
 
 .nav .option {
@@ -44,20 +44,20 @@ body {
 }
 
 .introduction {
-    color: #8E969E;
+    color: #FEFEFE;
 }
 
 .introduction .Author {
-    color: #FAFAFA;
+    color: #FFF;
 }
 
 .organization .organization_ h3 {
-    color: #FAFAFA;
+    color: #FFF;
 }
 
 .organization .organization_ .orgId {
     font-weight: normal;
-    color: #8E969E;
+    color: #FEFEFE;
 }
 
 .star-project {
@@ -66,9 +66,9 @@ body {
 
 .star-project .repositories .intro,
 .star-project .repositories .intro p {
-    color: #8E969E;
+    color: #FEFEFE
 }
 
 .footer {
-    color: #FAFAFA;
+    color: #FFF;
 }
