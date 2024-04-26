@@ -67,15 +67,15 @@ hr {
     font-weight: normal;
 }
 
-.divTitle {
-    color: #8E969E;
-}
-
 .divBox {
     transform: translate(10%, 0);
     background-color: #FFF;
     width: 80%;
     border-radius: 10px;
+}
+
+.divTitle {
+    color: #8E969E;
 }
 
 .introduction {

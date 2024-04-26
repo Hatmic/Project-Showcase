@@ -53,7 +53,7 @@ let repositoriesInformation = [
         website: "https://pro.hatmic.com",
         intro: "<strong>This Webpage</strong>, My Personal Project Showcase Page.",
         authour: "Hatmic",
-        author_link: "https//github.com/Hatmic"
+        author_link: "https://github.com/Hatmic"
     },
     {
         projectName: "old.hatmic.com",
@@ -62,7 +62,7 @@ let repositoriesInformation = [
         website: "https://old.hatmic.com",
         intro: "My Former Personal Homepage.",
         authour: "Hatmic",
-        author_link: "https//github.com/Hatmic"
+        author_link: "https://github.com/Hatmic"
     },
     {
         projectName: "blog.hatmic.com",
