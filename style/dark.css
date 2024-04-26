@@ -44,7 +44,7 @@ body {
 }
 
 .introduction {
-    color: #FEFEFE;
+    color: #EBEBEB;
 }
 
 .introduction .Author {
@@ -57,7 +57,7 @@ body {
 
 .organization .organization_ .orgId {
     font-weight: normal;
-    color: #FEFEFE;
+    color: #EBEBEB;
 }
 
 .star-project {
@@ -66,7 +66,7 @@ body {
 
 .star-project .repositories .intro,
 .star-project .repositories .intro p {
-    color: #FEFEFE
+    color: #EBEBEB;
 }
 
 .footer {
