@@ -71,6 +71,12 @@ hr {
     color: #8E969E;
 }
 
+.divBox {
+    transform: translate(10%, 0);
+    background-color: #FFF;
+    width: 80%;
+}
+
 .introduction {
     transform: translate(10%, 0);
     background-color: #FFF;

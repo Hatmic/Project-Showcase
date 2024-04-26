@@ -10,15 +10,18 @@ document.addEventListener("DOMContentLoaded", function() {
         optionElement.style.marginRight = navOptionHeight + 'px';
     });
 
+    let divBoxElements = document.querySelectorAll('.divBox');
+    divBoxElements.forEach(function(divBoxElement){
+        divBoxElement.style.padding = navOptionHeight * 1.5 + 'px';
+        divBoxElement.style.marginBottom = navOptionHeight * 1.5 + 'px';
+    })
+
     document.querySelector('.introduction').style.padding = navOptionHeight * 1.5 + 'px';
     document.querySelector('.introduction').style.marginBottom = navOptionHeight * 1.5 + 'px';
     document.querySelector('.introduction').style.marginTop = navOptionHeight * 6 + 'px';
 
     document.querySelector('#intro-1').style.marginRight = navOptionHeight + 'px';
     document.querySelector('#intro-2').style.marginLeft = navOptionHeight + 'px';
-
-    document.querySelector('.organization').style.padding = navOptionHeight * 1.5 + 'px';
-    document.querySelector('.organization').style.marginBottom = navOptionHeight * 1.5 + 'px';
     
     let orgMemberElements = document.querySelectorAll('.organization .organization_ .hatmic-org .orgProfileSpan .member img');
     orgMemberElements.forEach(function(orgMemberElement){
@@ -29,9 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.querySelector('.organization .organization_ .hatmic-org .orgAvatarSpan .orgAvatar').style.height = H3Height * 3 + navOptionHeight * 1.5 + 'px';
     document.querySelector('.organization .organization_ .hatmic-org .orgAvatarSpan').style.marginRight = navOptionHeight * 1.5 + 'px';
-
-    document.querySelector('.star-project').style.padding = navOptionHeight * 1.5 + 'px';
-    document.querySelector('.star-project').style.marginBottom = navOptionHeight * 1.5 + 'px';
     
     let repositoriesH3Elements = document.querySelectorAll('.star-project .repositories h3');
     repositoriesH3Elements.forEach(function(repositoriesH3Element){
