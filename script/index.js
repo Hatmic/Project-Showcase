@@ -47,6 +47,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 let repositoriesInformation = [
     {
+        projectName: "pro.hatmic.com",
+        githubUrl: "https://github.com/Hatmic/Project-pro.hatmic.com",
+        githubName: "Project-pro.hatmic.com",
+        website: "https://pro.hatmic.com",
+        intro: "<strong>This Webpage</strong>, My Personal Project Showcase Page.",
+        authour: "Hatmic",
+        author_link: "https//github.com/Hatmic"
+    },
+    {
         projectName: "old.hatmic.com",
         githubUrl: "https://github.com/Hatmic/Homepage-old.hatmic.com/",
         githubName: "Homepage - old.hatmic.com",
