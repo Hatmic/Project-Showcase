@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var themeButton = document.getElementById("themeButton");
+    let themeButton = document.getElementById("themeButton");
 
-    var currentUrl = window.location.href;
+    let currentUrl = window.location.href;
     if (currentUrl.includes("?theme=dark")) {
         addDarkTheme();
     }
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     function addDarkTheme() {
-        var linkElement = document.createElement("link");
+        let linkElement = document.createElement("link");
         linkElement.setAttribute("rel", "stylesheet");
         linkElement.setAttribute("id", "darkStylesheet");
         linkElement.setAttribute("href", "./style/dark.css");
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function removeDarkTheme() {
-        var darkStylesheet = document.getElementById("darkStylesheet");
+        let darkStylesheet = document.getElementById("darkStylesheet");
         if (darkStylesheet) {
             darkStylesheet.remove();
         }
