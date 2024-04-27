@@ -47,7 +47,7 @@ let intro2Information = [
         para: "In the music field, I really enjoy listening to rock music, and some of my favorite artists include Eric Clapton, Led Zeppelin, Metallica, Mark Knopfler, Guns N' Roses, Pink Floyd, and more. I can also play the guitar and piano, and compose my own melodies."
     },
     {
-        para: "Feel free to follow me on GitHub at this link: <a href=\"https://github.com/Hatmic\">https://github.com/Hatmic</a>!"
+        para: "Feel free to follow me on GitHub at this link: <a href=\"https://github.com/Hatmic\" target=\"_blank\">https://github.com/Hatmic</a>!"
     }
 ];
 //

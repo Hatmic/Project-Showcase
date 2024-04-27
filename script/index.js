@@ -50,10 +50,18 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 let container0 = document.getElementById("nav");
-navOptionsInformation.forEach(function(i){
-    let navOptionInformationHtml = `
-        <a href="${i.link}" class="option text-with-underline" id="${i.id}"><p>${i.opName}</p></a>
-    `;
+navOptionsInformation.forEach(function(i, index2){
+    let navOptionInformationHtml;
+    if (index2 == 0) {
+        navOptionInformationHtml = `
+        <a class="option text-with-underline" id="${i.id}"><p>${i.opName}</p></a>
+        `;
+    }
+    else {
+        navOptionInformationHtml = `
+            <a href="${i.link}" class="option text-with-underline" id="${i.id}"><p>${i.opName}</p></a>
+        `;
+    }
     container0.innerHTML += navOptionInformationHtml;
 });
 
