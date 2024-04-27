@@ -16,6 +16,10 @@
 
 你可以点击 fork，将我的仓库复刻到你的 GitHub 账号上；也可以打开你要克隆到本地的文件夹，在命令行中输入 `git clone https://github.com/Hatmic/Project-pro.hatmic.com.git` 将代码克隆到本地。
 
+### 修改
+
+你可以在 [script/information.js](https://github.com/Hatmic/Project-pro.hatmic.com/blob/main/script/information.js) 中修改信息，这样就可以显示你的内容，成为你的项目展示页面了！
+
 ### About
 
 You can visit my website at [https://pro.hatmic.com](https://pro.hatmic.com/)! This website serves as a showcase for personal projects developed by Hatmic.
@@ -31,3 +35,7 @@ Welcome to follow me on GitHub at https://github.com/Hatmic!
 ### Clone
 
 You can click fork to clone my repository to your GitHub account; or you can open the folder you want to clone to your local machine and enter `git clone https://github.com/Hatmic/Project-pro.hatmic.com.git` in the command line to clone the code locally.
+
+### Modify
+
+You can modify the information in [script/information.js](https://github.com/Hatmic/Project-pro.hatmic.com/blob/main/script/information.js) to display your content and become your project showcase page!
