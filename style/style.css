@@ -82,6 +82,22 @@ hr {
     color: #8E969E;
 }
 
+.zoomViewButton {
+    cursor: pointer;
+}
+
+.zoomViewButton[title]:hover:after {
+    content: attr(title);
+    position: absolute;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(142, 150, 158, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 0;
+    color: #FFF;
+    z-index: 1000;
+}
+
 .introduction {
     justify-content: center;
     color: #636C76;
