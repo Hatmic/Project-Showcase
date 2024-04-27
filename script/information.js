@@ -26,6 +26,24 @@ let navOptionsInformation = [
     }
 ];
 
+let intro1Information = [
+    {
+        para: "I am a middle school student from China who is interested in both music and computer science fields. You can call me Hatmic."
+    },
+    {
+        para: "In the realm of computer science, I am currently studying web frontend development and working on my own projects. I have a solid understanding of basic syntax in many programming languages such as HTML, CSS, JavaScript, C, C++, Python, Dart, etc."
+    },
+];
+
+let intro2Information = [
+    {
+        para: "In the music field, I really enjoy listening to rock music, and some of my favorite artists include Eric Clapton, Led Zeppelin, Metallica, Mark Knopfler, Guns N' Roses, Pink Floyd, and more. I can also play the guitar and piano, and compose my own melodies."
+    },
+    {
+        para: "Feel free to follow me on GitHub at this link: <a href=\"https://github.com/Hatmic\">https://github.com/Hatmic</a>!"
+    }
+];
+
 let repositoriesInformation = [
     {
         projectName: "pro.hatmic.com",
@@ -82,6 +100,21 @@ navOptionsInformation.forEach(function(i){
     container0.innerHTML += navOptionInformationHtml;
 });
 
+let container2 = document.getElementById("intro-1");
+intro1Information.forEach(function(i){
+    let intro1InformationHtml = `
+        <p>${i.para}</p>
+    `;
+    container2.innerHTML += intro1InformationHtml;
+});
+
+let container3 = document.getElementById("intro-2");
+intro2Information.forEach(function(i){
+    let intro2InformationHtml = `
+        <p>${i.para}</p>
+    `;
+    container3.innerHTML += intro2InformationHtml;
+});
 
 let container1 = document.getElementById("repositories");
 repositoriesInformation.forEach(function(i, index1){
@@ -90,7 +123,7 @@ repositoriesInformation.forEach(function(i, index1){
         <p class="intro">${i.intro}</p>
         <p class="intro">GitHub: <a href="${i.githubUrl}" target="_blank">${i.githubName}</a></p>
         <p class="intro">Author: <a href="${i.author_link}" target="_blank">${i.authour}</a></p>
-    `
+    `;
     if(index1 !== repositoriesInformation.length - 1){
         repositoriesInformationHtml += `<hr>`
     }
