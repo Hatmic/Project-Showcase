@@ -2,7 +2,7 @@
 
 ### 关于
 
-你可以在 [pro.hatmic.com/](https://pro.hatmic.com/) 访问我的网站！此网站为 Hatmic 自主开发的个人项目的展示页面。
+你可以在 [https://pro.hatmic.com](https://pro.hatmic.com/) 访问我的网站！此网站为 Hatmic 自主开发的个人项目的展示页面。
 
 本网站使用 JavaScript, HTML, CSS 开发，你可以在 style 和 script 目录中分别修改 CSS 和 JS 文件。
 
@@ -18,7 +18,7 @@
 
 ### About
 
-You can visit my website at [pro.hatmic.com/](https://pro.hatmic.com/)! This website serves as a showcase for personal projects developed by Hatmic.
+You can visit my website at [https://pro.hatmic.com](https://pro.hatmic.com/)! This website serves as a showcase for personal projects developed by Hatmic.
 
 The website is developed using JavaScript, HTML, and CSS. You can modify the CSS and JS files in the style and script directories, respectively.
 
