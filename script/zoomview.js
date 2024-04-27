@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let zoomViewButton = document.querySelector(".zoomview");
+    let zoomViewButton = document.querySelector(".zoomViewButton");
 
     let currentUrl = window.location.href
     if (currentUrl.includes("?zoomview")) {

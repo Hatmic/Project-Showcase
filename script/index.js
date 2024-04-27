@@ -43,6 +43,10 @@ document.addEventListener("DOMContentLoaded", function() {
         repositoriesHrElement.style.marginTop = navOptionHeight * 1 + 'px';
         repositoriesHrElement.style.marginBottom = navOptionHeight * 1 + 'px';
     });
+
+    let H5Height = document.querySelector('h5').offsetHeight;
+
+    document.querySelector('#footerAvatar').style.height = navOptionHeight * 1 + 'px';
 });
 
 let repositoriesInformation = [

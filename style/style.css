@@ -165,5 +165,14 @@ hr {
 }
 
 .footer {
-    color: #1F2328;
+    text-align: center;
+    color: #636C76;
+}
+
+.footer h5 {
+    font-weight: normal;
+}
+
+.footer #footerAvatar {
+    border-radius: 50px;
 }
