@@ -8,7 +8,7 @@ You can visit my website at [https://pro.hatmic.com](https://pro.hatmic.com/)! T
 
 The website is developed using JavaScript, HTML, and CSS. You can modify the CSS and JS files in the style and script directories, respectively.
 
-The website is hosted on GitHub Pages, with the code available on the [GitHub repository](https://github.com/Hatmic/Project-pro.hatmic.com), released under the MIT license.
+The website is hosted on Vercel, with the code available on the [GitHub repository](https://github.com/Hatmic/Project-pro.hatmic.com), released under the MIT license.
 
 According to the MIT open-source license, anyone reproducing this work must respect my copyright and must retain the original copyright notice and license declaration.
 
@@ -30,7 +30,7 @@ You can click fork to clone my repository to your GitHub account; or you can ope
 
 本网站使用 JavaScript, HTML, CSS 开发，你可以在 style 和 script 目录中分别修改 CSS 和 JS 文件。
 
-此网站托管在 GitHub Pages 上，代码发布在 [Github 仓库](https://github.com/Hatmic/Project-pro.hatmic.com) 中并以 MIT 协议开源。
+此网站托管在 Vercel 上，代码发布在 [Github 仓库](https://github.com/Hatmic/Project-pro.hatmic.com) 中并以 MIT 协议开源。
 
 根据 MIT 开源协议，任何人转载此作品都必须尊重我的著作权，并且必须保留原始的版权声明和许可声明。
 
