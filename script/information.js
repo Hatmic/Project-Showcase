@@ -121,7 +121,7 @@ let repositoriesInformation = [
         projectName: "Codemao-Studio-Ranking",
         githubUrl: "https://github.com/Hatmic/Codemao-Studio-Ranking/",
         githubName: "Codemao-Studio-Ranking",
-        website: "#",
+        website: "https://github.com/Hatmic/Codemao-Studio-Ranking/",
         intro: "Python script for the Codemao Studio Comment Ranking List maintained by Hatmic.",
         authour: "Hatmic",
         author_link: "https://github.com/Hatmic"
