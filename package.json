@@ -3,6 +3,6 @@
     "sass": "^1.75.0"
   },
   "scripts": {
-    "build:sass": "sass src/scss:dist/css"
+    "build:sass": "sass src/scss:style"
   }
 }
