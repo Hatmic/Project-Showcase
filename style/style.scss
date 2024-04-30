@@ -1,11 +1,20 @@
+$font-stack: -apple-system, BlinkMacSystemFont, SF Pro text, 'Segoe UI', Helvetica, Helvetica Neue, MiSans, HarmonyOSHans, Segoe UI, Arial, sans-serif, "\5B8B\4F53";$body-bg-color: #FAFAFA;
+$link-color: #3888ff;$hr-border-color: rgba(200, 200, 200, 0.5);
+$text-underline-color: #FFF;$nav-bg-color: #1F2328;
+$option-color: #FFF;$div-box-bg-color: #FFF;
+$div-title-color: #8E969E;$introduction-color: #636C76;
+$author-color: #1F2328;$org-id-color: #636C76;
+$star-project-bg-color: #FFF;$repositories-h3-color: #0969DA;
+$footer-color: #636C76;
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, SF Pro text, 'Segoe UI', Helvetica, Helvetica Neue, MiSans, HarmonyOSHans, Segoe UI, Arial, sans-serif, "\5B8B\4F53";
-    background-color: #FAFAFA;
+    font-family: $font-stack;
+    background-color: $body-bg-color;
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -14,32 +23,32 @@ body {
 a {
     text-decoration: none;
     margin: 0;
-    color: #3888ff;
+    color: $link-color;
 }
 
 hr {
     border: none;
-    border-top: 1px solid rgba(200, 200, 200, 0.5);
+    border-top: 1px solid $hr-border-color;
 }
 
 .text-with-underline {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    color: #FFF;
+    color: $text-underline-color;
     backdrop-filter: blur(50px);
-}
 
-.text-with-underline:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    height: 2px;
-    width: 0;
-    background-color: #FFF;
-    backdrop-filter: blur(50px);
-    transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        height: 2px;
+        width: 0;
+        background-color: $text-underline-color;
+        backdrop-filter: blur(50px);
+        transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
 }
 
 .text-with-underline:hover:after {
@@ -47,15 +56,17 @@ hr {
 }
 
 .nav {
-    background-color: #1F2328;
+    background-color: $nav-bg-color;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 998;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
+
+    .option {
+        color: $option-color;
+        font-weight: normal;
+    }
 }
 
 .fixedNav {
@@ -66,133 +77,134 @@ hr {
     position: fixed;
 }
 
-.nav .option {
-    color: #FFF;
-    font-weight: normal;
-}
-
 .divBox {
     transform: translate(10%, 0);
-    background-color: #FFF;
+    background-color: $div-box-bg-color;
     width: 80%;
     border-radius: 10px;
 }
 
 .divTitle {
-    color: #8E969E;
+    color: $div-title-color;
 }
 
 .zoomViewButton {
     cursor: pointer;
-}
 
-.zoomViewButton[title]:hover:after {
-    content: attr(title);
-    position: absolute;
-    border: none;
-    border-radius: 50px;
-    background-color: rgba(142, 150, 158, 0.5);
-    backdrop-filter: blur(5px);
-    padding: 0;
-    color: #FFF;
-    z-index: 1000;
+    &[title]:hover:after {
+        content: attr(title);
+        position: absolute;
+        border: none;
+        border-radius: 50px;
+        background-color: rgba(142, 150, 158, 0.5);
+        backdrop-filter: blur(5px);
+        padding: 0;
+        color: #FFF;
+        z-index: 1000;
+    }
 }
 
 .introduction {
     justify-content: center;
-    color: #636C76;
-}
+    color: $introduction-color;
 
-.introduction p {
-    margin: 0;
-}
+    p {
+        margin: 0;
+    }
 
-.introduction .introduction_ {
-    justify-content: center;
-    display: flex;
-}
+    .introduction_ {
+        justify-content: center;
+        display: flex;
 
-.introduction .introduction_ p {
-    margin: 0;
-    text-align: left;
-}
+        p {
+            margin: 0;
+            text-align: left;
+        }
+    }
 
-.introduction .Author {
-    text-align: left;
-    color: #1F2328;
+    .Author {
+        text-align: left;
+        color: $author-color;
+    }
 }
 
 .organization {
     justify-content: center;
-}
 
-.organization .organization_ .orgCard {
-    display: flex;
-}
+    .organization_ {
+        .orgCard {
+            display: flex;
+        }
 
-.organization .organization_ .orgAvatar {
-    border-radius: 10px;
-    border: 1px solid rgba(200, 200, 200, 0.8);
-}
+        .orgAvatar {
+            border-radius: 10px;
+            border: 1px solid rgba(200, 200, 200, 0.8);
+        }
 
-.organization .organization_ .hatmic-org .orgProfileSpan .member img {
-    border-radius: 10px;
-}
+        .hatmic-org {
+            .orgProfileSpan {
+                img {
+                    border-radius: 10px;
+                }
+            }
+        }
 
-.organization .organization_ h3 {
-    color: #1F2328;
-}
+        h3 {
+            color: $author-color;
+        }
 
-.organization .organization_ .orgId {
-    font-weight: normal;
-    color: #636C76;
+        .orgId {
+            font-weight: normal;
+            color: $org-id-color;
+        }
+    }
 }
 
 .star-project {
     transform: translate(10%, 0);
-    background-color: #FFF;
+    background-color: $star-project-bg-color;
     width: 80%;
     justify-content: center;
     border-radius: 10px;
-}
 
-.star-project .repositories {
-    border-radius: 10px;
-    margin: 0;
-}
+    .repositories {
+        border-radius: 10px;
+        margin: 0;
 
-.star-project .repositories a:hover {
-    text-decoration: underline;
-}
+        a:hover {
+            text-decoration: underline;
+        }
 
-.star-project .repositories h3 {
-    color: #0969DA;
-    text-decoration: none;
-    margin: 0;
-}
+        h3 {
+            color: $repositories-h3-color;
+            text-decoration: none;
+            margin: 0;
 
-.star-project .repositories h3:hover {
-    text-decoration: underline;
-}
+            &:hover {
+                text-decoration: underline;
+            }
+        }
 
-.star-project .repositories .intro {
-    color: #636C76;
-    margin: 0;
-}
+        .intro {
+            color: $introduction-color;
+            margin: 0;
 
-.star-project .repositories .intro p {
-    margin: 0;
+            p {
+                margin: 0;
+            }
+        }
+    }
 }
 
 .footer {
     text-align: center;
-    color: #636C76;
-}
+    color: $footer-color;
 
-.footer h5 {
-    font-weight: normal;
-}
+    h5 {
+        font-weight: normal;
+    }
 
-.footer #footerAvatar {
-    border-radius: 50px;
+    #footerAvatar {
+        border-radius: 50px;
+    }
 }

@@ -1,25 +1,31 @@
+$body-bg-color: #1F2328;$text-color: #1F2328;
+$transition-bezier: cubic-bezier(0.25, 0.46, 0.45, 0.94);$border-color: rgba(200, 200, 200, 0.3);
+$div-title-color: #636C76;$introduction-color: #ddd;
+$white: #FFF;$author-color: #FFF;
+$org-id-color: #ddd;
+
 body {
-    background-color: #1F2328;
+    background-color: $body-bg-color;
 }
 
 .text-with-underline {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    color: #1F2328;
+    color: $text-color;
     backdrop-filter: blur(50px);
-}
 
-.text-with-underline:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    height: 2px;
-    width: 0;
-    background-color: #1F2328;
-    backdrop-filter: blur(50px);
-    transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        height: 2px;
+        width: 0;
+        background-color: $text-color;
+        backdrop-filter: blur(50px);
+        transition: width 0.3s $transition-bezier;
+    }
 }
 
 .text-with-underline:hover:after {
@@ -27,48 +33,56 @@ body {
 }
 
 .nav {
-    background-color: #FFF;
-}
+    background-color: $white;
 
-.nav .option {
-    color: #1F2328;
+    .option {
+        color: $text-color;
+    }
 }
 
 .divBox {
-    background-color: #1F2328;
-    border: 1px solid rgba(200, 200, 200, 0.3);
+    background-color: $body-bg-color;
+    border: 1px solid $border-color;
 }
 
 .divTitle {
-    color: #636C76;
+    color: $div-title-color;
 }
 
 .introduction {
-    color: #ddd;
+    color: $introduction-color;
+
+    .Author {
+        color: $author-color;
+    }
 }
 
-.introduction .Author {
-    color: #FFF;
-}
+.organization {
 
-.organization .organization_ h3 {
-    color: #FFF;
-}
+    .organization_ {
+        h3 {
+            color: $white;
+        }
 
-.organization .organization_ .orgId {
-    font-weight: normal;
-    color: #ddd;
+        .orgId {
+            font-weight: normal;
+            color: $org-id-color;
+        }
+    }
 }
 
 .star-project {
-    background-color: #1F2328;
-}
+    background-color: $body-bg-color;
 
-.star-project .repositories .intro,
-.star-project .repositories .intro p {
-    color: #ddd;
+    .repositories {
+
+        .intro,
+        .intro p {
+            color: $introduction-color;
+        }
+    }
 }
 
 .footer {
-    color: #FFF;
+    color: $white;
 }
