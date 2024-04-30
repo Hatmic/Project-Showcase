@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let linkElement = document.createElement("link");
         linkElement.setAttribute("rel", "stylesheet");
         linkElement.setAttribute("id", "zoomview");
-        linkElement.setAttribute("href", "/css/zoomview.css");
+        linkElement.setAttribute("href", "/dist/css/style.css");
         document.head.appendChild(linkElement);
     }
 

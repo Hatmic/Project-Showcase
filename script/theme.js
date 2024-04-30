@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let linkElement = document.createElement("link");
         linkElement.setAttribute("rel", "stylesheet");
         linkElement.setAttribute("id", "darkStylesheet");
-        linkElement.setAttribute("href", "/css/dark.css");
+        linkElement.setAttribute("href", "/dist/css/style.css");
         document.head.appendChild(linkElement);
     }
 
