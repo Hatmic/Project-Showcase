@@ -46,4 +46,4 @@ You can click fork to clone my repository to your GitHub account; or you can ope
 
 ### Star History
 
-[![](https://star-history.com/#hatmic/Project-pro.hatmic.com&Date)]()
+[![Star History Chart](https://api.star-history.com/svg?repos=hatmic/Project-pro.hatmic.com&type=Date)](https://star-history.com/#hatmic/Project-pro.hatmic.com&Date)
