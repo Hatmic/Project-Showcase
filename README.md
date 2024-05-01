@@ -43,3 +43,7 @@ You can click fork to clone my repository to your GitHub account; or you can ope
 ### 修改
 
 **你可以在 [script/information.js](https://github.com/Hatmic/Project-pro.hatmic.com/blob/main/script/information.js) 中修改信息，这样就可以显示你的内容，成为你的项目展示页面了！**
+
+### Star History
+
+https://star-history.com/#hatmic/Project-pro.hatmic.com&Date
