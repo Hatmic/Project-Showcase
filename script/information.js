@@ -4,11 +4,11 @@
 
 // Nav
 let navOptionsInformation = [
-    {
-        link: "",
-        opName: "Theme",
-        id: "themeButton" // Hatmic: I Wouldn't recommend deleting this ID.
-    },
+    // {
+    //     link: "",
+    //     opName: "Theme",
+    //     id: "themeButton" // Hatmic: I Wouldn't recommend deleting this ID.
+    // },
     {
         link: "#home",
         opName: "Home",
