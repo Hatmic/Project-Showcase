@@ -1,4 +1,4 @@
-# Project - pro.hatmic.com
+# Hatmic's Project Showcase
 
 ## English
 
