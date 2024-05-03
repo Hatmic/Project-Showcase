@@ -20,8 +20,8 @@ let navOptionsInformation = [
         id: ""
     },
     {
-        link: "#blog",
-        opName: "Blog",
+        link: "#Docs",
+        opName: "Docs",
         id: ""
     },
     {
