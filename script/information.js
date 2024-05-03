@@ -82,16 +82,16 @@ let orgMember = [
 // Star Repositories
 let repositoriesInformation = [
     {
-        projectName: "pro.hatmic.com",
-        githubUrl: "https://github.com/Hatmic/Project-pro.hatmic.com",
-        githubName: "Project-pro.hatmic.com",
+        projectName: "Hatmic's Project Showcase",
+        githubUrl: "https://github.com/Hatmic/Project-Showcase",
+        githubName: "Project Showcase",
         website: "https://pro.hatmic.com",
         intro: "<strong>This Webpage</strong>, My Personal Project Showcase Page.",
         authour: "Hatmic",
         author_link: "https://github.com/Hatmic"
     },
     {
-        projectName: "old.hatmic.com",
+        projectName: "Hatmic's Homepage(Former)",
         githubUrl: "https://github.com/Hatmic/Homepage-old.hatmic.com/",
         githubName: "Homepage - old.hatmic.com",
         website: "https://old.hatmic.com",
@@ -100,7 +100,7 @@ let repositoriesInformation = [
         author_link: "https://github.com/Hatmic"
     },
     {
-        projectName: "blog.hatmic.com",
+        projectName: "Hatmic's Blog",
         githubUrl: "https://github.com/Hatmic/blog.hatmic.com/",
         githubName: "blog.hatmic.com",
         website: "https://blog.hatmic.com",
@@ -109,7 +109,7 @@ let repositoriesInformation = [
         author_link: "https://github.com/Hatmic"
     },
     {
-        projectName: "bkstudio.hatmic.com",
+        projectName: "BKStudio's Page",
         githubUrl: "https://github.com/Hatmic/bkstudio.hatmic.com/",
         githubName: "bkstudio.hatmic.com",
         website: "https://bkstudio.hatmic.com",
