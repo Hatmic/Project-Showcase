@@ -20,7 +20,7 @@ let navOptionsInformation = [
         id: ""
     },
     {
-        link: "#Docs",
+        link: "https://docs.hatmic.com/",
         opName: "Docs",
         id: ""
     },
